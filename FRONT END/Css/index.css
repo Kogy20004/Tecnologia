@@ -86,7 +86,7 @@ hr{
     background-color: wheat;
     color: black;
     border-radius: 15px;
-    margin: 15px auto;
+    margin: 10px auto;
 }
 
 .section #responsibily{ 
@@ -114,8 +114,15 @@ hr{
 .section .musica .img{
     border: 1px solid rgba(255, 255, 255, 0.226);
     background-color: rgba(255, 255, 255, 0.164);
-    width: 200px;
+    width: 220px;
+    height: 95px;
     padding: 5px;
+    margin: 0px auto;
+}
+
+.section .musica img{
+    width: 220px;
+    height: 95px;
 }
 
 .section .musica ol li {
