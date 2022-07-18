@@ -1,0 +1,40 @@
+.section .comida {
+    padding: 5px;
+    border: 1px solid red;
+}
+
+.section .comida form .par{
+    padding: 5px;
+    width: 250px;
+    margin-right: 5px;
+    background-color: rgba(255, 255, 255, 0.151);
+    border-radius: 15px 5px;
+}
+
+.section .comida .formulario{
+    width: fit-content;
+    border: 1px solid white;
+    margin: 1px auto;
+    
+}
+
+.section .comida  form{
+    display: inline-flex;
+    border: 1px solid red;
+    padding: 10px;
+    margin: 5px 2%;
+    
+}
+
+.section .comida form input{
+    display: flex;
+    margin: 5px auto;
+    
+}
+
+.section .comida form label{
+    display: grid;
+    text-align: center;
+}
+
+

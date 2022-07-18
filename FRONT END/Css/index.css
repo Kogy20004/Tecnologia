@@ -1,0 +1,139 @@
+body{
+    background:
+        linear-gradient(
+        120deg,
+        #59d3fc,
+        #554dde,
+        #59d3fc,
+        #554dde
+        );
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    display: flex;
+}
+
+hr{
+    border: 1px solid white;
+}
+
+.todo{
+    background-color: rgb(53, 53, 59);
+    margin-left : 50px;
+    margin-right : 50px;
+    border-radius: 50px;
+    padding: 3px;
+    border: 10px solid ;
+}
+
+.indice{
+    max-width: 600px;
+    margin: auto;
+    padding: 10px 0px;
+}
+
+.indice h1{
+    border: 1px solid black;
+    width: 140px;
+    margin: auto;
+    background-color: yellowgreen;
+    text-align: center;
+    border-radius: 50px;
+    padding: 8px;
+}
+
+.indice ul {
+    max-width: 400px ;
+    margin: auto;
+    margin-top: 8px;
+    margin-bottom: 2px;
+}
+
+.indice li{
+    border-radius: 15px;
+    width: 100px;
+    height: 60px;
+    margin-bottom: 5px;
+    text-align: center;
+    list-style-type: none;
+    background-color: rgb(230, 230, 230);
+    padding: 5px;
+    display: inline-table;
+    
+}
+
+.section{
+    padding: 5px;
+    border: 1px solid white;
+    margin: auto;
+    max-width: 1220px;
+    display: flow-root;
+}
+
+.section h2{
+    background-color: yellowgreen;
+    max-width: 250px;
+    min-width: fit-content;
+    border-radius: 50px;
+    margin: auto;
+    padding: 5px ;
+    text-align: center;
+}
+
+.section p {
+    max-width: max-content;
+    text-align: center;
+    padding: 3px;
+    background-color: wheat;
+    color: black;
+    border-radius: 15px;
+    margin: 15px auto;
+}
+
+.section #responsibily{ 
+    border-radius: 20px 5px;
+    background-color: rgba(255, 255, 255, 0.938);
+    color: black;
+    max-width: 200px;
+    margin: 0px 300px;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section #frase{
+    padding: 3px;
+    text-align: right;
+    min-width: fit-content;
+    width: 200px;
+    float: right;
+    background-color: rgba(255, 255, 255, 0.164);
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.section .musica .img{
+    border: 1px solid rgba(255, 255, 255, 0.226);
+    background-color: rgba(255, 255, 255, 0.164);
+    width: 200px;
+    padding: 5px;
+}
+
+.section .musica ol li {
+    margin: 10px auto;
+}
+
+.section .musica ul {
+    display: flex;
+    width: 900px;
+    margin: auto;
+}
+
+.section .musica ul li {
+    width: 200px;
+    margin: 5px auto;
+    background-color: rgb(230, 230, 230);
+    list-style-type: none;
+    padding: 10px;
+    border-radius: 5px 10px;
+    text-align: center;
+}
