@@ -7,9 +7,11 @@
     scroll-snap-type: x mandatory;
     scrollbar-width: none;
 }
+
 .slides > img {
     scroll-snap-align: start;
 }
+
 .slides img{
 border-radius: 10px;
 width: 300px;
@@ -18,85 +20,21 @@ object-fit: contain;
 
 .slides ::-webkit-scrollbar{
     display: none;
+    width: 10px;
 }
 
-body{
-  font-family:"Poppins",sans-serif;
-  min-height: 
-  200px;
-  background:
-  linear-gradient(
-    90deg,
-);
-    }
 
-.h1{
-  text-shadow: #0ceb0c -2px 0, rgb(23, 9, 226) 2px 0;
-  font-size: 25px;
-  font-weight:500;
-  letter-spacing:5px;
-  cursor: pointer;
-  text-transform:uppercase;
-  transition: 0.3s;
-  text-align: center;
-}
 
-.h1:hover{
-  color:rgb(255, 255, 255);
-  font-size: 25px;
-  text-shadow: 0 0 5px #03f423,
-      0 0 25px #03f423,
-      0 0 50px #03f423,
-      0 0 100px #03f423;
-}
 
-h2{
-  text-shadow: red -2px 0, cyan 2px 0;
-  font-size: 25px;
-  font-weight:500;
-  letter-spacing:5px;
-  cursor: pointer;
-  text-transform:uppercase;
-  transition: 0.3s;
-}
-h2:hover{
-  color:#fff;
-  font-size: 25px;
-  text-shadow: 0 0 5px #03e9f4,
-      0 0 25px #03e9f4,
-      0 0 50px #03e9f4,
-      0 0 100px #03e9f4;
-}
 
-h3 { color: #EB6A0C }
-
-.indice{
-  text-align: justify;
-  border: solid;
-  border-image-slice: 1;
-  border-width: 5px;
-  border-image-source: 
-    linear-gradient(
-      60deg,
-      #b305e4,
-      #0093ee);
-  width: fit-content;
-}
-
-.hr{
-  width: 10px;
-  border: solid;
-  border-width: 10px;
-  background: #000000;
-}
 ::-webkit-scrollbar{
-  width: 5px;
+  width: 10px;
 }
-::-webkit-scrollbar-track{
 
+::-webkit-scrollbar-track{
       background-color: #000000;
-      border-radius: 100vw;
 }
+
 ::-webkit-scrollbar-thumb{
      background-color:#8bc6fc;
      border-radius:100vw;
