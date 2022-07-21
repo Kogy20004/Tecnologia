@@ -23,13 +23,12 @@
     border: 1px solid red;
     padding: 10px;
     margin: 5px 2%;
-    
 }
 
 .section .comida form input{
     display: flex;
     margin: 5px auto;
-    
+    text-align: center;
 }
 
 .section .comida form label{
