@@ -117,7 +117,8 @@ hr{
 }
 
 .section .musica .img{
-    border: 1px solid rgba(255, 255, 255, 0.226);
+    
+    box-shadow: 0 0 25px 10px rgba(255, 255, 255, 0.205);
     background-color: rgba(255, 255, 255, 0.164);
     width: 220px;
     height: 95px;

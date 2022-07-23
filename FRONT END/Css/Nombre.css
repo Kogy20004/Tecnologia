@@ -1,0 +1,12 @@
+.nombre div{
+  padding: 0 0;
+  margin: 0 auto;
+  width: max-content;
+  border-radius: 50px 10px;
+  box-shadow: 0 1px 15px 5px rgb(255, 255, 255);
+  margin-bottom: 10px;
+}
+
+.nombre div img{
+  border-radius: 50px 10px;
+}

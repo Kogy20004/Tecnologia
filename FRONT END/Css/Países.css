@@ -1,0 +1,50 @@
+.paises ol {
+  
+  display: flex;
+  list-style-type: none;
+  margin: 8px 0;
+  color: black;
+}
+
+.paises li{
+
+  background-color: rgba(245, 222, 179, 0.171);
+  border-radius: 50px;
+  width: 300px;
+  height: 200px;
+  padding: 4px 8px ;
+  margin-left: 15px;
+  display: inline-block ;
+  margin: 1px auto;
+}
+
+.paises dt {
+  background-color: rgba(134, 227, 230, 0.575);
+  border-radius: 25px 8px;
+  width: 170px;
+  text-align: center;
+  margin: auto;
+  padding: 10px 0;
+  
+}
+
+.paises dd {
+  background-color: rgba(245, 222, 179, 0.63);
+  text-align: justify;
+  text-align-last: center;
+  width: 280px;
+  margin: 10px auto;
+  border-radius: 40px;
+  height: 70px;
+  padding: 20px 13px;
+}
+
+.paises img{
+  width: 50px;
+}
+
+ .paises div {
+  margin-top: -100px;
+  width: max-content;
+  margin: 0 auto;
+ }
