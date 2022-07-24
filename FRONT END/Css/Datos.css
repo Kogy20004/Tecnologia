@@ -14,6 +14,7 @@
     border: 1px solid red;
     display: inline-block;
     width: 1200px;
+    margin: 3px 0;
 }
 
 .Fdato{
@@ -24,5 +25,18 @@
 
 .Fdato img{
     border-radius: 100px;
-    width: 200px;
+    width: 220px ;
+    height: 150px;
+}
+
+.Vdato{
+    float: left;
+    width: 50px;
+    margin-left: 55px;
+}
+
+.Vdato video{
+    border-radius: 15px;
+    width: 200px ;
+    height: 200px;
 }
