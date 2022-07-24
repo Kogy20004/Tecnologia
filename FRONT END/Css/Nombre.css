@@ -1,12 +1,43 @@
-.nombre div{
+.nombre > div {
+  display: inline-block;
+  margin: 0 25%;
+}
+
+
+.nombre .valiente{
   padding: 0 0;
-  margin: 0 auto;
   width: max-content;
   border-radius: 50px 10px;
   box-shadow: 0 1px 15px 5px rgb(255, 255, 255);
   margin-bottom: 10px;
+  float: left;
+  height: 210px;
 }
 
-.nombre div img{
+.nombre .valiente img{
   border-radius: 50px 10px;
+}
+
+.nombre .Indi{
+  text-align: center;
+  background-color: rgba(196, 76, 76, 0.548);
+  padding: 8px;
+  width: 200px;
+  float: left;
+  margin-left: 25px;
+  margin-top: 15%;
+  border-radius: 25px;
+}
+
+.nombre .Indi :hover{
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.411);
+  padding: 4px;
+  width: 190px;
+  float: left;
+  border-radius: 25px;
+}
+
+.nombre .Indi :link{
+  color: white;
 }

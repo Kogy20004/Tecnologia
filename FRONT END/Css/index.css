@@ -45,11 +45,17 @@ hr{
     top: 5px;
 }
 
-.indice ul {
-    max-width: 400px ;
+.indice .lista {
+    width: min-content;
     margin: auto;
-    margin-top: 8px;
-    margin-bottom: 2px;
+}
+
+.indice ul {
+    width: 342px;
+    margin: 5px 0;
+    padding: 10px 5px 5px 5px;
+    border: 5px rgb(184, 209, 133);
+    border-style: double 
 }
 
 .indice li{
@@ -69,7 +75,6 @@ hr{
     padding: 5px;
     border: 1px solid rgb(0, 255, 21);
     margin: 1px auto;
-    max-width: 1220px;
     display: flow-root;
 }
 
@@ -87,7 +92,7 @@ hr{
 .section p {
     max-width: max-content;
     text-align: center;
-    padding: 3px;
+    padding: 6px;
     background-color: wheat;
     color: black;
     border-radius: 15px;

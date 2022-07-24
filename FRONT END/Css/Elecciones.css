@@ -1,0 +1,20 @@
+.elecciones{
+ 
+}
+
+.elecciones caption{
+  background-color: rgba(134, 227, 230, 0.575);
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.elecciones .candidatos{
+  width: 650px;
+  margin: 0 0;
+}
+
+.elecciones .candidatos td {
+  border: 1px dashed rgb(230, 230, 230);
+  padding: 5px;
+  text-align: center;
+}
