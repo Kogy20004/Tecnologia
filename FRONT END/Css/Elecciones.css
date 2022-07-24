@@ -6,15 +6,48 @@
   background-color: rgba(134, 227, 230, 0.575);
   font-size: 20px;
   margin-bottom: 5px;
+ 
 }
 
 .elecciones .candidatos{
-  width: 650px;
-  margin: 0 0;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.elecciones .candidatos :visited{
+  color: aliceblue;
+}
+.elecciones .candidatos :link{
+  color: aliceblue;
 }
 
 .elecciones .candidatos td {
-  border: 1px dashed rgb(230, 230, 230);
-  padding: 5px;
+  padding: 3px 5px;
+}
+
+.elecciones .candidatos tr:nth-child(1) {
   text-align: center;
+  background-color: rgba(218, 238, 107, 0.5);
+}
+
+.elecciones .candidatos tr:nth-child(2) {
+  
+  text-align: justify;
+  background-color: rgba(112, 114, 226, 0.5);
+}
+
+.elecciones .candidatos tr:nth-child(3) {
+  background-color: rgba(226, 112, 112, 0.5);
+}
+
+.elecciones .candidatos tr:nth-child(3) div{
+  margin: 0 auto ;
+  width: min-content;
+}
+
+
+/* segunda tabla */
+
+.elecciones .primeravuelta {
+  width: 500px;
 }
