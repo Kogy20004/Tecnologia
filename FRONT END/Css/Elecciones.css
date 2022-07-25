@@ -1,12 +1,11 @@
-.elecciones{
- 
-}
+
 
 .elecciones caption{
-  background-color: rgba(134, 227, 230, 0.575);
+  background-color: rgba(134, 227, 230, 0.5);
   font-size: 20px;
-  margin-bottom: 5px;
- 
+  padding: 4px;
+  width: 400px;
+  margin: 8px auto;
 }
 
 .elecciones .candidatos{
@@ -27,17 +26,17 @@
 
 .elecciones .candidatos tr:nth-child(1) {
   text-align: center;
-  background-color: rgba(218, 238, 107, 0.5);
+  background-color: rgba(255, 255, 125, 0.5);
 }
 
 .elecciones .candidatos tr:nth-child(2) {
   
   text-align: justify;
-  background-color: rgba(112, 114, 226, 0.5);
+  background-color: rgba(125, 125, 255, 0.5);
 }
 
 .elecciones .candidatos tr:nth-child(3) {
-  background-color: rgba(226, 112, 112, 0.5);
+  background-color: rgba(255, 125, 125, 0.5);
 }
 
 .elecciones .candidatos tr:nth-child(3) div{
@@ -45,9 +44,77 @@
   width: min-content;
 }
 
+/* div resultados */
+
+.elecciones .resultados{
+  margin: 0 auto;
+  display: flex;
+  width: max-content;
+}
 
 /* segunda tabla */
 
 .elecciones .primeravuelta {
   width: 500px;
+  margin-right: 40px;
+}
+
+.elecciones .primeravuelta td{
+  padding: 3px;
+  text-align: center;
+}
+
+.elecciones .primeravuelta td:nth-child(1){
+  width: 140px;
+  text-align:left ;
+}
+
+.elecciones .primeravuelta thead {
+  background-color: rgba(255, 255, 125, 0.5);
+  text-align: center;
+}
+
+.elecciones .primeravuelta tbody{
+  background-color: rgba(125, 125, 255, 0.5);
+}
+.elecciones .primeravuelta tbody:nth-child(2n+1){
+  background-color: rgba(125, 125, 255, 0.75);
+}
+
+.elecciones .primeravuelta tfoot
+{
+  background-color: rgba(255, 125, 125, 0.5);
+}
+
+/* Tercera tabla */
+
+.elecciones .segundavuelta {
+  width: 500px;
+}
+
+.elecciones .segundavuelta td{
+  padding: 3px;
+  text-align: center;
+}
+
+.elecciones .segundavuelta td:nth-child(1){
+  width: 180px;
+  text-align:left ;
+}
+
+.elecciones .segundavuelta thead {
+  background-color: rgba(255, 255, 125, 0.5);
+  text-align: center;
+}
+
+.elecciones .segundavuelta tbody{
+  background-color: rgba(125, 125, 255, 0.5);
+}
+.elecciones .segundavuelta tbody:nth-child(2n+1){
+  background-color: rgba(125, 125, 255, 0.75);
+}
+
+.elecciones .segundavuelta tfoot
+{
+  background-color: rgba(255, 125, 125, 0.5);
 }
