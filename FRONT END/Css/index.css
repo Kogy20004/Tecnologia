@@ -73,7 +73,6 @@ hr{
 
 .section{
     padding: 5px;
-    border: 1px solid rgb(0, 255, 21);
     margin: 1px auto;
     display: flow-root;
 }

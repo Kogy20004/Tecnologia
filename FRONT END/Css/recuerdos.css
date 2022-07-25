@@ -1,0 +1,39 @@
+.recuerdos{
+  border: 1px solid red;
+}
+
+.recuerdos .collage{
+  
+  width: 1100px;
+  margin: auto;
+  display: flex;
+}
+
+.recuerdos .collage table{
+  border-spacing: 5px;
+  width: 1100px;
+  box-sizing: content-box;
+
+}
+
+.recuerdos .collage td{
+  border: 1px dashed rgb(125, 125, 255);
+}
+
+.recuerdos .collage video{
+  height: 500px;
+}
+
+.recuerdos .collage img{
+  width: auto;
+  height: 500px;
+}
+
+.recuerdos .slides{
+  border: 1px solid darkcyan;
+  width: 1300px;
+}
+
+.recuerdos .slides img{
+  height: 220px;
+}
