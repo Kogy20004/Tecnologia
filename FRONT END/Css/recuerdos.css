@@ -1,6 +1,3 @@
-.recuerdos{
-  border: 1px solid red;
-}
 
 .recuerdos .collage{
   
@@ -30,8 +27,9 @@
 }
 
 .recuerdos .slides{
-  border: 1px solid darkcyan;
+  border: 1px dashed rgb(125, 125, 255);
   width: 1200px;
+  margin: 0 auto;
 }
 
 .recuerdos .slides img{

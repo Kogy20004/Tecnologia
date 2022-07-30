@@ -29,15 +29,15 @@
   border-radius: 25px;
 }
 
-.nombre .Indi :hover{
+.nombre .Indi:hover{
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.411);
+  background-color: rgba(255, 0, 0, 0.411);
   padding: 4px;
   width: 190px;
   float: left;
   border-radius: 25px;
 }
 
-.nombre .Indi :link{
+.nombre .Indi:link{
   color: white;
 }

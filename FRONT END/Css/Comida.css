@@ -1,6 +1,5 @@
 .section .comida {
     padding: 5px;
-    border: 1px solid red;
 }
 
 .section .comida form .par{
@@ -13,14 +12,12 @@
 
 .section .comida .formulario{
     width: fit-content;
-    border: 1px solid white;
     margin: 1px auto;
     
 }
 
 .section .comida  form{
     display: inline-flex;
-    border: 1px solid red;
     padding: 10px;
     margin: 5px 2%;
 }
@@ -35,5 +32,35 @@
     display: grid;
     text-align: center;
 }
+.section .comida form div.selecto{
+    margin: 5px 60px;
+}
 
+.Cuales_Prefieres{
+    width: max-content;
+    padding: 5px;
+    width: 1045px;
+    margin-right: 5px;
+    background-color: rgba(255, 255, 255, 0.151);
+    border-radius: 15px 5px;
+}
 
+.Preferencias label{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.336);
+    margin: 5px auto;
+}
+
+.Preferencias {
+
+    display: flex;
+}
+
+.Sancocho_frijoles label.element{
+    width: 120px;
+}
+.Sancocho_frijoles div{
+    margin: 0 auto;
+    display: flex;
+}

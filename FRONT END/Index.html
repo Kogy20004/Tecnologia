@@ -11,13 +11,60 @@
       
       <link href="Css/index.css" rel="stylesheet" type="text/css">
       <link href="Css/Comida.css" rel="stylesheet" type="text/css">
-      <link href="Css/Nombre.css" rel="stylesheet" type="text/css">
       <link href="Css/Países.css" rel="stylesheet" type="text/css">
       <link href="Css/Datos.css" rel="stylesheet" type="text/css">
       <link href="Css/Elecciones.css" rel="stylesheet" type="text/css">
       <link href="Css/recuerdos.css" rel="stylesheet" type="text/css">
       <link href="Css/formulario.css" rel="stylesheet" type="text/css">
 
+
+      <style>
+
+         .nombre > div {
+         display: inline-block;
+         margin: 0 25%;
+         }
+
+
+         .nombre .valiente{
+         padding: 0 0;
+         width: max-content;
+         border-radius: 50px 10px;
+         box-shadow: 0 1px 15px 5px rgb(255, 255, 255);
+         margin-bottom: 10px;
+         float: left;
+         height: 210px;
+         }
+
+         .nombre .valiente img{
+         border-radius: 50px 10px;
+         }
+
+         .nombre .Indi{
+         text-align: center;
+         background-color: rgba(196, 76, 76, 0.548);
+         padding: 8px;
+         width: 200px;
+         float: left;
+         margin-left: 25px;
+         margin-top: 15%;
+         border-radius: 25px;
+         }
+
+         .nombre .Indi :hover{
+         text-align: center;
+         background-color: rgba(184, 68, 68, 0.411);
+         padding: 4px;
+         width: 190px;
+         float: left;
+         border-radius: 25px;
+         }
+
+         .nombre .Indi :link{
+         color: white;
+         }
+         
+      </style>
    </head>
       
 <body >
@@ -62,8 +109,8 @@
    </div>
 
       <hr> 
- 
-    <div class="section" id="2">
+
+   <div class="section" id="2">
       <div class="musica">
          <h2 >Mis gustos musicales <sup>2</sup></h2>
             
@@ -111,7 +158,7 @@
             </ol>
       </div>
    </div>
-       <hr>
+      <hr>
    <div class="section" id="3">
       <div class="comida">
          <h2> ¿Cual es tu comida favorita? <sup>3</sup></h2>
@@ -142,12 +189,93 @@
                </div>
 
                <div class="par">
-                  <label for="fruta F">Ingresa tu fruta favorita </label>
-                  <input type="text" name="fruta F" placeholder="Manzana">
+                  <label for="FrutaF">Ingresa tu fruta favorita</label><br>
+                  <input type="text" name="FrutaF" size="18" maxlength="15" placeholder="Manzana">
                </div>
 
-               <div>
-                  <label for=""></label>
+               </form>
+
+               <form action="">
+               <div class="par">
+                  <label for="VerduraF">verdura favorita</label><br>
+                  <input type="text" name="VerduraF" size="10" minlength="3" value="Zanahoria">
+               </div>
+               
+               <div class="par">
+                  <label for="CualComidarapida">Cual comida rapida prefieres</label><br>
+                  <input list="EligeComidarapida" name="CualComidarapida" size="14">
+                  <datalist id="EligeComidarapida">
+                     <option value="Perro"></option>
+                     <option value="Perra"></option>
+                     <option value="Hamburguesa"></option>
+                     <option value="Salchipapas"></option>
+                     <option value="Chuzo"></option>
+                     <option value="Ensalada césar"></option>
+                  </datalist>
+               </div>
+
+               <div class="par">
+                  <label for="chatarra_favorita">Cual es tu comida chatarra favorita</label>
+                  <div class="selecto">
+                     <select name="chatarra_favorita" id="chatarra_favorita">
+                        <option value="Cup">Cupcakes</option>
+                        <option value="Hot">Hot Dogs</option>
+                        <option value="Pie">Pie de calabaza</option>
+                        <option value="Che">Cheesecake</option>
+                        <option value="Piz">Pizza </option>
+                        <option value="Don">Donuts</option>
+                        <option value="Ali">Alitas BBQ</option>
+                        <option value="Ham">Hamburguesa </option>
+                     </select>
+                  </div>
+               </div>
+
+
+
+               <div class="Sancocho_frijoles par">
+                  <label for="Sancochofrijoles">¿Que plato prefieres?</label><br>
+                     <div>
+                     <label class="element"><input type="radio" name="Sancochofrijoles" id="Sancochofrijoles">Sancocho</label>
+                     <label class="element"><input type="radio" name="Sancochofrijoles" id="Sancochofrijoles">Frijoles</label>
+                     </div>
+                  </div>
+               </form>
+               
+               <form action="">
+               <div class="par">
+                  <label for="1_10_arroz">Del 1 al 10 cuanto te gusta el arroz</label><br>
+                  <input type="number" name="1_10_arroz" id="arroz_1_10" min="1" max="10" placeholder="1 - 10">
+               </div>
+
+               <div class="par">
+                  <label for="chicharrón">Cuanto te gusta el chicharrón</label><br>
+                  <label><-- Poco <input type="range" name="chicharrón" id="chicharrón"> Mucho --> </label>
+               </div>
+
+               <div class="par">
+                  <label for="comidasecreta">Cual comida que te guste te da pena decir</label><br>
+                  <input type="password" name="comidasecreta" id="comidasecreta">
+               </div>
+
+               <div class="par">
+                  <label for="colorfruta">De que color es tu fruta favorita</label><br>
+                  <input type="color" name="colorfruta" id="colorfruta">
+               </div>
+            </form>
+            <form action="">
+               <div class="Cuales_Prefieres">
+                  <label for="Cualesprefieres" class="Cualesprefieres">Cuales prefieres</label><br>
+                  <div class="Preferencias">
+                     <label><input type="checkbox" name="Tomate">Tomate</label>
+                     <label><input type="checkbox" name="Zanahoria">Zanahoria</label>
+                     <label><input type="checkbox" name="Remolacha">Remolacha</label>
+                     <label><input type="checkbox" name="Lechuga">Lechuga</label>
+                     <label><input type="checkbox" name="Cebolla">Cebolla</label>
+                     <label><input type="checkbox" name="Puerro">Puerro</label>
+                     <label><input type="checkbox" name="Espinacas">Espinacas</label>
+                     <label><input type="checkbox" name="Calabacín">Calabacín</label>
+                  </div>
+                  <br><input type="reset" value="Borrar" id="Cualesprefieres">
                </div>
             </form>
          </div>
@@ -286,9 +414,9 @@
                <td><h4><a href="https://es.wikipedia.org/wiki/Federico_Gutiérrez" target="_blank">Federico Gutiérrez</a></h4></td>
             </tr>
             <tr>
-               <td><div >Líder del la Liga de Gobernantes Anticorrupción</div></td>
-               <td><div >Líder de la coalición política Pacto Histórico</div></td>
-               <td><div >Líder de la coalición política Equipo por Colombia</div></td>
+               <td>Líder del la Liga de Gobernantes Anticorrupción</td>
+               <td>Líder de la coalición política Pacto Histórico</td>
+               <td>Líder de la coalición política Equipo por Colombia</td>
             </tr>
             <tr>
                <td>
@@ -510,24 +638,11 @@
    </div>
       <hr>
 
-   <div class="section formulario" id="9">
-      <form action="#">
-
-         <label for="name">Nombre: </label>
-         <input type="text" name="name" id="name">
-         <br>
-         <label for="password">Contrase&ntilde;a</label>
-         <input type="password" name="password" id="password">
-         <br>
-         <input type="submit" name="enviar" id="enviar">
-
-      </form>
+   <div class="section Coming" id="9">
+      <h1>En proceso</h1>
    </div>
    <hr>
 
-   <p>.</p>
-
-    <hr> 
    <footer>
 
       <div class="Pie"><a href=#0><img src="Img/volverinicio.png" width="200px" height="150"></a></div>

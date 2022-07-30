@@ -52,7 +52,7 @@ hr{
 
 .indice ul {
     width: 342px;
-    margin: 5px 0;
+    margin: 15px 0;
     padding: 10px 5px 5px 5px;
     border: 5px rgb(184, 209, 133);
     border-style: double 
@@ -153,4 +153,18 @@ hr{
     padding: 10px;
     border-radius: 5px 10px;
     text-align: center;
+}
+
+.Coming{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+
+footer .Pie{
+    border-radius: 50%;
+    width: max-content;
+    margin: 15px auto;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.349);
 }
