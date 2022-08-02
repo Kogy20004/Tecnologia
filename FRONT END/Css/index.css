@@ -59,16 +59,21 @@ hr{
 }
 
 .indice li{
+    font-size: 15px;
     border-radius: 15px;
     width: 100px;
-    height: 60px;
+    height: 80px;
     margin-bottom: 5px;
     text-align: center;
     list-style-type: none;
     background-color: rgb(230, 230, 230);
     padding: 5px;
     display: inline-table;
-    
+}
+
+.indice li p{
+    align-items: flex-end;
+
 }
 
 .section{
